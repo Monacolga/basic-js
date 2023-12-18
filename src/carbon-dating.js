@@ -34,7 +34,6 @@ function dateSample(sampleActivity) {
   }
   return false;
 }
-// throw new NotImplementedError('Not implemented');
 
 module.exports = {
   dateSample,
