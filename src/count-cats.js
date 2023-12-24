@@ -19,7 +19,6 @@ function countCats(matrix) {
   if (!matrix.length) {
     return 0;
   }
-  let columnCount = matrix[0].length;
   for (let i = 0; i < matrix.length; i += 1) {
     for (let k = 0; k < matrix[i].length; k += 1) {
       if (matrix[i][k] === "^^") {
